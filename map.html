@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+    <title>千葉キワニスクラブ</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/toggle.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('nav').slideToggle();
+
+            });
+        })
+    </script>
+    <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+    <script src="js/jquery1.7.2.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- ロゴ -->
+        <div class="logo">
+            <a href="top.html"><img src="images/logo.png" alt="kiwanis" /></a>
+        </div>
+        <!-- / ロゴ -->
+        <!-- 電話番号+受付時間 -->
+        <div class="info">
+            <p class="tel"><span>電話:</span> 043-306-8804</p>
+            <p class="address">〒264-0026　千葉県千葉市若葉区西都賀３－３－２<br> 学校法人　瀧澤学園内</p>
+        </div>
+        <!-- / 電話番号+受付時間 -->
+    </header>
+
+    <!-- メインナビゲーション -->
+    <div id="toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    <nav id="mainNav">
+        <div class="inner">
+            <div class="menu-bar" style="display: block;">
+                <ul>
+
+                    <li><a href="kiwanis.html"><strong>キワニスクラブとは？</strong><span>Kiwanis</span></a></li>
+                    <li><a href="aboutus.html"><strong>千葉キワニスクラブについて</strong><span>Aboutus</span></a></li>
+                    <li><a href="activity.html"><strong>活動内容</strong><span>Activity</span></a></li>
+                    <li><a href="club.html"><strong>入会案内</strong><span>Club</span></a></li>
+                    <li class="last"><a href="contact.html"><strong>お問い合わせ</strong><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- / メインナビゲーション -->
+    <div id="wrapper">
+
+        <!-- メイン画像 -->
+        <div id="mainBanner">
+            <img src="images/title-menu1.jpeg" alt="">
+        </div>
+
+        <style>
+            .map {
+                padding-top: 20px;
+                position: relative;
+                text-align: center;
+
+            }
+        </style>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.680942246917!2d140.14534037558042!3d35.63559133248013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022855c72d650a7%3A0x8b53914082c7c642!2z5a2m5qCh5rOV5Lq654Cn5r6k5a2m5ZySIOiZueagoeiIjg!5e0!3m2!1sja!2sjp!4v1703824155502!5m2!1sja!2sjp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- フッター -->
+    <footer id="footer">
+        <div class="inner">
+            <!-- 左側 -->
+            <div id="info" class="grid">
+                <!-- ロゴ -->
+                <div class="logo">
+                    <a href="top.html"><img src="images/logo.png" width="45" height="45" alt="Sample site">
+
+                    </a>
+                </div>
+                <!-- / ロゴ -->
+                <!-- 電話番号+受付時間 -->
+                <div class="info">
+                    <p class="tel"><span>電話:</span> 043-306-8804</p>
+                    <p class="address">〒264-0026　千葉県千葉市若葉区西都賀３－３－２<br> 学校法人　瀧澤学園内</p>
+                </div>
+                <!-- / 電話番号+受付時間 -->
+            </div>
+            <!-- / 左側 -->
+            <!-- 右側 ナビゲーション -->
+            <ul class="footnav">
+                <li><a href="kiwanis.html">キワニスクラブとは？</a></li>
+                <li><a href="aboutus.html">千葉キワニスクラブについて</a></li>
+                <li><a href="activity.html">活動内容</a></li>
+                <li><a href="club.html">入会案内</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="map.html">サイトマップ</a></li>
+            </ul>
+            <!-- / 右側 ナビゲーション -->
+        </div>
+    </footer>
+    <!-- / フッター -->
+
+</body>
+
+</html>
