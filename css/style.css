@@ -1,0 +1,866 @@
+@charset "utf-8";
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+
+blockquote,
+pre,
+
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table.table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: bold;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+:focus {
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+a img {
+    border: 0;
+}
+
+figure {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* -------------------------------------------------------------- */
+
+body {
+    color: #333;
+    font-size: 13px;
+    font-family: verdana, "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: none;
+}
+
+
+/* リンク設定
+------------------------------------------------------------*/
+a {
+    color: #74b4df;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #006699;
+}
+
+a:active,
+a:focus {
+    outline: 0;
+}
+
+
+/* 全体
+------------------------------------------------------------*/
+#wrapper {
+    margin: 0 auto;
+    padding: 0 1%;
+    width: 98%;
+    position: relative;
+    background: #fff;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/*************
+/* ヘッダー
+*************/
+#header {
+    height: 160px;
+}
+
+#header h1 {
+    padding: 5px 0 10px 15px;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#header a {
+    color: #333;
+}
+
+#header a:hover {
+    color: #888;
+}
+
+/*************
+/* ロゴ
+*************/
+.logo {
+    float: left;
+}
+
+.logo p {
+    float: left;
+}
+
+.logo img {
+    width: auto;
+    float: left;
+    padding: 2px 10px 0 10px;
+}
+
+.logo span {
+    display: block;
+}
+
+/*************
+/* 電話番号
+*************/
+.info {
+    float: right;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.info .address {
+    font-size: 11px;
+}
+
+
+/*************
+/* ロゴ+電話番号
+*************/
+.logo,
+.info .tel {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span,
+.info span {
+    color: #333;
+    font-size: .6em;
+    font-weight: normal;
+}
+
+
+/**************************
+/* メイン画像（トップページ+サブページ）
+**************************/
+#mainBanner {
+    margin: 25px auto;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+#mainBanner img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/**************************
+/* グリッド
+**************************/
+.gridWrapper {
+    padding: 10px 0 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+* html .gridWrapper {
+    height: 1%;
+}
+
+.grid {
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.box {
+    margin: 0 5px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    padding: 10px 0 5px;
+}
+
+.box h3,
+.box p {
+    text-align: left;
+}
+
+.box p.readmore {
+    padding: 10px 5px 5px;
+    text-align: right;
+}
+
+
+
+/*************
+メイン コンテンツ
+*************/
+#main {
+    margin-top: 25px;
+}
+
+section.content article {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+* html section.content article {
+    height: 1%;
+}
+
+section.content p {
+    margin-bottom: 5px;
+}
+
+h3.heading {
+    font-weight: normal;
+    line-height: 36px;
+    border-bottom: 1px solid #D6D6D6;
+    color: #333;
+}
+
+section.content img {
+    max-width: 90%;
+    height: auto;
+}
+
+.alignleft {
+    float: left;
+    clear: left;
+    margin: 3px 10px 10px 0;
+}
+
+.alignright {
+    float: right;
+    clear: right;
+    margin: 3px 0 10px 10px;
+}
+
+
+
+
+/*************
+テーブル
+*************/
+span.required {
+    color: #C30;
+}
+
+
+
+/**************
+*******newtable-open*******:
+***********:::*/
+.formAtype {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.formBtype {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:450) {
+    .formAtype {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .formBtype {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/**************
+*******newtable-close*******:
+***********:::*/
+/*************
+/* サイドバー
+*************/
+#sidebar ul {
+    padding-top: 10px;
+}
+
+#sidebar li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px dashed #f1f1f1;
+}
+
+#sidebar li:last-child {
+    border: 0;
+    margin-bottom: 0px;
+}
+
+#sidebar li a {
+    font-size: 12px;
+    display: block;
+    color: #333;
+}
+
+#sidebar li a:hover {
+    color: #888;
+}
+
+#sidebar ul.list li {
+    clear: both;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    overflow: hidden;
+    border: 0;
+}
+
+ul.list li {
+    height: 1%;
+}
+
+ul.list li img {
+    float: left;
+    margin-right: 10px;
+}
+
+ul.list li {
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+
+/*************
+/* フッター
+*************/
+#footer {
+    clear: both;
+    overflow: hidden;
+    padding: 10px 10px 20px 10px;
+}
+
+* html #footer {
+    height: 1%;
+}
+
+#footer .grid {
+    padding: 10px 0 5px;
+    margin: 0;
+    background: transparent;
+}
+
+#footer #info .logo,
+#footer #info .info {
+    float: none;
+}
+
+#footer #info .info {
+    clear: both;
+    padding: 10px 0 0 15px;
+    text-align: left;
+}
+
+#footer .logo {
+    font-size: 18px;
+}
+
+#footer .info .tel,
+#footer .info .tel span,
+#footer #info .address {
+    font-size: 11px;
+    color: #333;
+}
+
+ul.footnav {
+    float: right;
+    width: 650px;
+    padding: 10px 0;
+}
+
+ul.footnav li {
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 7px 0 8px;
+    font-size: 11px;
+    border-right: 1px solid #b6b6b6;
+}
+
+#footer a {
+    color: #333;
+}
+
+#footer a:hover {
+    color: #888;
+}
+
+address {
+    clear: both;
+    padding: 20px 0 50px 0;
+    text-align: center;
+    font-style: normal;
+    font-size: 10px;
+    color: #333;
+}
+
+
+/* PC-----------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+
+    #header,
+    #wrapper,
+    .inner {
+        width: 960px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #wrapper {
+        padding-bottom: 20px;
+    }
+
+    nav#mainNav {
+        clear: both;
+        overflow: hidden;
+        position: relative;
+    }
+
+    nav#mainNav .inner {
+        width: 932px;
+        padding: 0 14px;
+    }
+
+    nav#mainNav ul li {
+        float: left;
+        position: relative;
+    }
+
+    nav#mainNav li:last-child {
+        border-right: 1px dotted #ebebeb;
+    }
+
+    nav#mainNav ul li a {
+        display: block;
+        text-align: center;
+        _float: left;
+        font-size: 13px;
+        width: 154px;
+        height: 45px;
+        padding: 14px 19px 10px 12px;
+
+        color: #333;
+        border-left: 1px dotted #ebebeb;
+    }
+
+    nav#mainNav ul li a span,
+    nav#mainNav ul li a strong {
+        display: block;
+    }
+
+    nav#mainNav ul li a span {
+        color: #cdcdcd;
+        font-size: 10px;
+    }
+
+    nav div.panel {
+        display: block !important;
+        float: left;
+    }
+
+    /*
+    a#menu {
+        display: none;
+    }
+    */
+
+    nav#mainNav li.active a,
+    nav#mainNav li a:hover {
+        color: #909090;
+        background: #f9f9f9;
+        padding-top: 9px;
+    }
+
+    #mainBanner {
+        margin-left: 15px;
+    }
+
+    #subpage #mainBanner {
+        margin: 17px auto;
+    }
+
+    #main {
+        float: right;
+        width: 657px;
+        padding-right: 15px;
+    }
+
+    #sidebar {
+        float: left;
+        width: 245px;
+        padding: 25px 0 0 15px;
+        overflow: hidden;
+    }
+
+    #sidebar article {
+        padding-top: 7px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    /* グリッド全体 */
+    .gridWrapper {
+        width: 960px;
+        margin: 0 0 0 -10px;
+    }
+
+    #gallery article {
+        padding: 10px 0 10px 10px;
+    }
+
+    /* グリッド */
+    .grid {
+        float: left;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    #subpage .grid {
+        width: auto;
+    }
+
+    #gallery .grid {
+        width: auto;
+        margin: 10px 0 2px 10px;
+    }
+}
+
+
+@media only screen and (max-width:959px) {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    nav#mainNav {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        border: 1px solid #e4e4e4;
+    }
+
+    nav#mainNav ul li {
+        float: none;
+        clear: both;
+        width: 100%;
+        height: auto;
+        line-height: 1.2;
+    }
+
+    nav#mainNav ul li a,
+    nav#mainNav ul li.current-menu-item li a {
+        color: #333;
+        display: block;
+        padding: 15px 10px;
+        text-align: left;
+        border-bottom: 1px dashed #ccc;
+    }
+
+    nav#mainNav ul li a span {
+        padding-left: 10px;
+    }
+
+    nav#mainNav ul li:first-child a {
+        border-top: 1px solid #e4e4e4;
+    }
+
+    nav#mainNav ul li:last-child a {
+        border: 0;
+    }
+
+    nav#mainNav ul li.active a {
+        color: #888;
+    }
+
+    nav div.panel {
+        float: none;
+    }
+
+    #subpage #mainBanner {
+        max-width: 668px;
+    }
+
+    #sidebar {
+        padding-bottom: 30px;
+    }
+
+    #sidebar article {
+        padding: 7px 0 15px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    #footer .grid,
+    #footer ul.footnav {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.footnav li {
+        float: none;
+        display: inline-block;
+    }
+
+    .grid {
+        width: 32%;
+        margin: 10px 0 0 1%;
+    }
+
+    #gallery .grid {
+        float: left;
+        width: 31%;
+        margin: 0 0 0 1%;
+    }
+
+    #footer .grid img,
+    #footer .info {
+        float: none;
+    }
+
+    #footer .grid p {
+        display: block;
+    }
+
+    #footer #info .info {
+        float: none;
+        text-align: center;
+    }
+
+    #footer .logo,
+    #footer .info {
+        width: 100%;
+        float: none;
+    }
+
+    #footer .logo p {
+        float: none;
+        display: block;
+    }
+
+    #footer .logo img {
+        float: none;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #header {
+        height: 250px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px) {
+    #header {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #header h1,
+    .logo,
+    .info {
+        text-align: center;
+    }
+
+    .logo,
+    .info {
+        clear: both;
+        width: 100%;
+        float: none;
+    }
+
+    .logo p {
+        float: none;
+        display: block;
+    }
+
+    .logo img {
+        float: none;
+        padding: 0;
+    }
+
+    .box img {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .box h3 {
+        padding-top: 0;
+    }
+
+    .alignleft,
+    .alignright {
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    #gallery .grid {
+        float: left;
+    }
+}
+
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px) {
+    .grid {
+        width: 100%;
+    }
+
+    .gridWrapper {
+        display: block;
+    }
+
+    .box img {
+        max-width: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    .logo img {
+        width: 300px;
+        height: 80px;
+        float: none;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .logo img {
+        width: 210px;
+        height: 60px;
+        float: none;
+        padding: 0px;
+    }
+}

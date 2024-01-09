@@ -1,0 +1,354 @@
+@charset "uft-8";
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+
+
+    overflow: hidden;
+}
+
+#main {
+    float: right;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#main h2 {
+    border-bottom: 3px solid #33333387;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #013975;
+}
+
+#main h3 {
+    margin: 0px 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #013975;
+}
+
+#main p {
+    font-size: 0.85em;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#main section {
+    margin: 0px 0px 20px;
+}
+
+
+
+.div_newslist {
+    height: 350px;
+    width: 578px;
+    overflow-y: scroll;
+    border: 1px solid #333;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.div_newslist dl {
+    margin: 20px;
+    font-size: 0.95em;
+    line-height: 1.8;
+}
+
+.div_newslist dl dt {
+    float: left;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.div_newslist dl dd.dd_ttl {
+    padding-left: 110px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.div_newslist dl dd.dd_txt {
+    clear: both;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    border-bottom-color: #333;
+    margin: 0px 0px 5px;
+    padding: 0px 0px 5px 20px;
+    font-size: 0.9em;
+}
+
+#nav_sidemenu ul li {
+    margin-bottom: 15px;
+}
+
+*/ section+section {
+    margin-top: 3rem;
+}
+
+h2 {
+
+
+    margin: 0 0 1rem;
+    padding-left: 1rem;
+    letter-spacing: 0.1em;
+    color: #013975;
+
+}
+
+footer {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footerInner {
+    background-color: #014c96;
+    height: 70px;
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+}
+
+.p_company {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 0.95em;
+    line-height: 1.8px;
+}
+
+.p_address {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0px;
+    font-size: 0.85em;
+    line-height: 1.8;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.p_copyright {
+    color: #FFF;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.75em;
+    line-height: 1.8;
+    margin: 0px;
+}
+
+.img_btnreturn {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    right: 20px;
+    top: -24px;
+}
+
+
+
+.p_company {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0px;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 0.95em;
+    line-height: 1.8px;
+}
+
+.p_address {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0px;
+    font-size: 0.85em;
+    line-height: 1.8;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.p_copyright {
+    color: #FFF;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.75em;
+    line-height: 1.8;
+    margin: 0px;
+}
+
+.img_btnreturn {
+    position: relative;
+    right: 20px;
+    top: -24px;
+}
+
+/************************************************
+Contact 
+************************************************/
+table.inquiry {
+    border-collapse: collapse;
+    width: 519px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: #666;
+    border-right-color: #666;
+    border-left-color: #666;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+table.inquiry th {
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 0.85em;
+    line-height: 1.6;
+    background-color: #d3edfb;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #333;
+    border-bottom-color: #333;
+}
+
+table.inquiry td {
+    text-align: left;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+}
+
+/************************************************
+table
+************************************************/
+table.summary {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: #666;
+    border-right-color: #666;
+    border-left-color: #666;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+table.summary th {
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 0.85em;
+    line-height: 1.6;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-color: #333;
+    border-bottom-color: #333;
+}
+
+table.summary td {
+    text-align: left;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+}
+
+
+
+@media screen and (max-width:600px) {
+    table.summary {
+        border-collapse: collapse;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-top-color: #666;
+        border-right-color: #666;
+        border-left-color: #666;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 0.9em;
+        line-height: 1.2;
+    }
+
+    table.summary th {
+        width: 100px;
+        text-align: left;
+        padding: 10px;
+        font-weight: normal;
+        font-size: 0.85em;
+        line-height: 1.6;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-right-color: #333;
+        border-bottom-color: #333;
+    }
+
+    table.summary td {
+        text-align: left;
+        padding: 10px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #666;
+    }
+
+}
